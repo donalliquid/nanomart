@@ -1,7 +1,8 @@
-package id.indoliquid.nanomart
+package id.indoliquid.nanomart.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import id.indoliquid.nanomart.R
 
 class MainActivity : AppCompatActivity() {
 
