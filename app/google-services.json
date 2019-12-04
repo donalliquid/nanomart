@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "663293939624",
+    "project_id": "nanomart-prototype",
+    "storage_bucket": "nanomart-prototype.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663293939624:android:54632df648763778",
+        "android_client_info": {
+          "package_name": "id.indoliquid.nanomart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663293939624-jne3hmcjgamnv96fn91j07lbp9j8cag9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.indoliquid.nanomart",
+            "certificate_hash": "1bd21af3c0ff1876100c2daa3ea637fda44b0cc6"
+          }
+        },
+        {
+          "client_id": "663293939624-udr0brlocnt844cosifgha1s4rvudnp5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx9KbnJ2F1BFF98eObHU6pEpc2y-dCFro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663293939624-udr0brlocnt844cosifgha1s4rvudnp5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
