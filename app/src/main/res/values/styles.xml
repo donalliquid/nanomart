@@ -1,11 +1,101 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
+    <style name="RoundBoxNumberText">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">23dp</item>
+        <item name="fontPath">fonts/Muli-SemiBold.ttf</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="RoundBoxMainText">
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">27dp</item>
+        <item name="fontPath">fonts/Muli-Bold.ttf</item>
+        <item name="android:textColor">@color/greenAccent</item>
+    </style>
+    <style name="RoundBoxSubText">
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">15dp</item>
+        <item name="fontPath">fonts/Muli-Regular.ttf</item>
+        <item name="android:textColor">@color/darkGray</item>
+    </style>
+    <style name="LightLargeText">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">45dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="fontPath">fonts/Muli-Bold.ttf</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="LightMainText">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">30dp</item>
+        <item name="fontPath">fonts/Muli-Bold.ttf</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="LightSubText">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">17dp</item>
+        <item name="fontPath">fonts/Muli-SemiBold.ttf</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="LightSubTextBold">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18dp</item>
+        <item name="fontPath">fonts/Muli-Bold.ttf</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="DarkMainText">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">30dp</item>
+        <item name="fontPath">fonts/Muli-Bold.ttf</item>
+        <item name="android:textColor">@color/greenAccent</item>
+    </style>
+    <style name="DarkSubText">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">17dp</item>
+        <item name="fontPath">fonts/Muli-Normal.ttf</item>
+        <item name="android:textColor">@color/darkGray</item>
+    </style>
+    <style name="DarkSubTextLight">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">17dp</item>
+        <item name="fontPath">fonts/Muli-Light.ttf</item>
+        <item name="android:textColor">@color/darkGray</item>
+    </style>
+    <style name="CountDownNumber">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">35dp</item>
+        <item name="fontPath">fonts/Muli-SemiBold.ttf</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="ConfirmationListNameText">
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">16dp</item>
+        <item name="fontPath">fonts/Muli-SemiBold.ttf</item>
+        <item name="android:textColor">@color/darkGray</item>
+    </style>
+    <style name="ConfirmationListUnitPriceText">
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">13dp</item>
+        <item name="fontPath">fonts/Muli-SemiBold.ttf</item>
+        <item name="android:textColor">@color/darkGray</item>
+    </style>
+    <style name="ConfirmationListQuantityText">
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">13dp</item>
+        <item name="fontPath">fonts/Muli-SemiBold.ttf</item>
+        <item name="android:textColor">@color/greenAccent</item>
+    </style>
+    <style name="ConfirmationListSubtotalPriceText">
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">20dp</item>
+        <item name="fontPath">fonts/Muli-SemiBold.ttf</item>
+        <item name="android:textColor">@color/greenAccent</item>
+    </style>
 </resources>

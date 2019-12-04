@@ -1,3 +1,32 @@
 <resources>
-    <string name="app_name">nanomart</string>
+    <string name="app_name">NanomartPrototype</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="currency_prefix">Rp </string>
+    <string name="stdby_box_1_title">Autentikasi\nWajah</string>
+    <string name="stdby_box_1_sub">Posisikan wajah kamu\ndi depan kamera\nuntuk masuk akun.</string>
+    <string name="stdby_box_2_title">Ambil Produk</string>
+    <string name="stdby_box_2_sub">Keluarkan produk yang\nkamu mau dan tutup pintu\nuntuk menghitung produk.</string>
+    <string name="stdby_box_3_title">Tap Bayar</string>
+    <string name="stdby_box_3_sub">Untuk menyelesaikan\npembayaran.</string>
+    <string name="welcome_text">Selamat datang,</string>
+    <string name="open_door_now">Segera Buka Pintu</string>
+    <string name="take_products">Ambil Produk</string>
+    <string name="door_unlocked">Pintu terbuka</string>
+    <string name="door_will_locked_in">Pintu akan terkunci dalam</string>
+    <string name="seconds">Detik</string>
+    <string name="please_close_the_door">Silahkan Tutup Pintu</string>
+    <string name="to_proceed_to_payment">Untuk melanjutkan pembayaran</string>
+    <string name="door_locked">Pintu Terkunci</string>
+    <string name="operation_cancelled">Operasi Dibatalkan</string>
+    <string name="scan_qr_to_restart">Scan QR lagi untuk memulai kembali</string>
+    <string name="total">Total Belanja</string>
+    <string name="cancel">Batal</string>
+    <string name="change_products">Ganti Produk</string>
+    <string name="pay">Bayar</string>
+    <string name="please_wait">Harap Menunggu</string>
+    <string name="we_are_counting">Kami sedang menghitung pembelian</string>
+    <string name="thankYou">Terima Kasih</string>
+    <string name="payment_successful">Pembayaran Berhasil</string>
 </resources>
