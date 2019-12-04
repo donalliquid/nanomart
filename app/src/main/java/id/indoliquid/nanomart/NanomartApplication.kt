@@ -1,8 +1,7 @@
-package id.indoliquid.nanomart.ui
+package id.indoliquid.nanomart
 
 import android.app.Application
 import android.content.Context
-import id.indoliquid.nanomart.R
 import io.github.inflationx.calligraphy3.CalligraphyConfig
 import io.github.inflationx.calligraphy3.CalligraphyInterceptor
 import io.github.inflationx.viewpump.ViewPump
