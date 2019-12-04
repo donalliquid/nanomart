@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/launchFragment"
+    tools:ignore="UnusedNavigation">
+    <fragment
+        android:id="@+id/launchFragment"
+        android:name="id.indoliquid.nanomart.ui.launch.LaunchFragment"
+        android:label="Launch Fragment">
+        <action
+            android:id="@+id/action_launchFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="id.indoliquid.nanomart.ui.login.LoginFragment"
+        android:label="Login Fragment"></fragment>
+
+    <fragment
+        android:id="@+id/initializingFragment"
+        android:name="id.indoliquid.nanomart.ui.initializing.InitializingFragment"></fragment>
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="id.indoliquid.nanomart.ui.welcome.WelcomeFragment"></fragment>
+
+    <fragment
+        android:id="@+id/thankYouFragment"
+        android:name="id.indoliquid.nanomart.ui.thank_you.ThankYouFragment"></fragment>
+
+    <fragment
+        android:id="@+id/standByFragment"
+        android:name="id.indoliquid.nanomart.ui.stand_by.StandByFragment"></fragment>
+
+    <fragment
+        android:id="@+id/scanFaceFragment"
+        android:name="id.indoliquid.nanomart.ui.scan_face.ScanFaceFragment"></fragment>
+
+    <fragment
+        android:id="@+id/registrationCompletedFragment"
+        android:name="id.indoliquid.nanomart.ui.registration_completed.RegistrationCompletedFragment"></fragment>
+
+    <fragment
+        android:id="@+id/noItemTakenOutFragment"
+        android:name="id.indoliquid.nanomart.ui.no_item_takenout.NoItemTakenOutFragment"></fragment>
+
+    <fragment
+        android:id="@+id/faceAuthFailedFragment"
+        android:name="id.indoliquid.nanomart.ui.face_auth_failed.FaceAuthFailedFragment"></fragment>
+
+    <fragment
+        android:id="@+id/enterPhoneNumberFragment"
+        android:name="id.indoliquid.nanomart.ui.enter_phone_number.enterPhoneNumberFragment"></fragment>
+
+    <fragment
+        android:id="@+id/doorUnlockedFragment"
+        android:name="id.indoliquid.nanomart.ui.door_unlocked.DoorUnlockedFragment"></fragment>
+
+    <fragment
+        android:id="@+id/doorLockedFragment"
+        android:name="id.indoliquid.nanomart.ui.door_locked.DoorLockedFragment"></fragment>
+
+    <fragment
+        android:id="@+id/confirmationFragment"
+        android:name="id.indoliquid.nanomart.ui.confirmation.ConfirmationFragment"></fragment>
+
+    <fragment
+        android:id="@+id/confirmRegistrationFragment"
+        android:name="id.indoliquid.nanomart.ui.confirm_registration.ConfirmRegistrationFragment"></fragment>
+
+    <fragment
+        android:id="@+id/confirmOtpFragment"
+        android:name="id.indoliquid.nanomart.ui.confirm_otp.ConfirmOtpFragment"></fragment>
+
+    <fragment
+        android:id="@+id/closeDoorFragment"
+        android:name="id.indoliquid.nanomart.ui.close_door.CloseDoorFragment"></fragment>
+
+    <fragment
+        android:id="@+id/calculatingFragment"
+        android:name="id.indoliquid.nanomart.ui.calculating.CalculatingFragment"></fragment>
+</navigation>
