@@ -16,7 +16,6 @@ class LoginFragment : Fragment() {
     }
 
     private lateinit var viewModel: LoginViewModel
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

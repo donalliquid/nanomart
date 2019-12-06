@@ -1,13 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<data>
+    <variable name="viewModel" type="id.indoliquid.nanomart.ui.login.LoginViewModel"/>
+</data>
+
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
     tools:context=".ui.login.LoginFragment">
 
     <TextView
+        android:id="@+id/LoginTitle"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Nanomart Login"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-</FrameLayout>
+    <EditText
+        android:id="@+id/editText_loginNanomartID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Nanomart ID"
+        android:text="@={viewModel.nanomartId}"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText_loginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Password"
+        android:text="@={viewModel.password}"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/button_Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Login"
+        android:onClick="@{(view) -> viewModel.loginBtnOnClick(view)}"/>
+</LinearLayout>
+
+
+</layout>
